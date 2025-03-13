@@ -2,6 +2,8 @@
 
 EZ-HTTPRequestChecker is a lightweight HTTP request testing tool designed for simplicity and ease of use. It provides a straightforward interface to create, send, and store HTTP requests with support for global variables. Please note that while this tool covers many basic needs, it has limitations compared to more advanced applications like Postman.
 
+![GUI](images/main_gui.png)
+
 ## 1. Main Features and Limitations
 
 ### Main Features
