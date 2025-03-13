@@ -1,0 +1,22 @@
+{
+    "requests": [
+        {
+            "method": "GET",
+            "description": "Search sample (using variables)",
+            "url": "https://{{search_engine_domain}}/search?q={{query}}",
+            "headers": "",
+            "body": ""
+        },
+        {
+            "method": "GET",
+            "description": "Search sample (direct)",
+            "url": "https://www.google.com/search?q=iphone+16+vs+16e",
+            "headers": "",
+            "body": ""
+        }
+    ],
+    "global_variables": {
+        "query": "[sample_query.txt]",
+        "search_engine_domain": "www.google.com"
+    }
+}
