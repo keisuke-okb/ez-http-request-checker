@@ -44,8 +44,8 @@ class EZHttpRequestCheckerApp(ctk.CTk):
         self.request_tree.heading("description", text=self.ui_texts.get("tree_heading_description", "Description"))
         self.request_tree.heading("url", text=self.ui_texts.get("tree_heading_url", "URL"))
         self.request_tree.column("method", width=80, anchor="w")
-        self.request_tree.column("description", width=150, anchor="w")
-        self.request_tree.column("url", width=300, anchor="w")
+        self.request_tree.column("description", width=100, anchor="w")
+        self.request_tree.column("url", width=200, anchor="w")
         self.request_tree.pack(fill="both", expand=True, padx=5, pady=5)
 
         self.request_tree.bind("<<TreeviewSelect>>", self.on_tree_select)
