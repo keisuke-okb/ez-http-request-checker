@@ -87,7 +87,3 @@ Run `python main.py` command to start.
    Click on an existing variable in the table to populate the input fields, then modify the values as needed.
 4. **Global Usage:**  
    Any variable defined here can be referenced in your requests using the `{{variable}}` syntax. Changes to variables are saved globally and persist across application sessions.
-
----
-
-EZ-HTTPRequestChecker offers a streamlined and efficient way to test HTTP requests with basic variable substitution capabilities. Its simplicity makes it a perfect choice for quick testing, even though it may not include the extensive features found in more complex tools.
